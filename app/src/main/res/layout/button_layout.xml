@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/buttonlayout">
+
+        <Button
+            android:id="@+id/btnlifecycle"
+            android:text="UNIT 1 - LIFE CYCLES"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:onClick="attachlifecycle"/>
+        <Button
+            android:id="@+id/btnxmllayout"
+            android:text="UNIT 2 - XML LAYOUTS"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:onClick="attachxmllayout" />
+        <Button
+            android:id="@+id/btnwidget"
+            android:text="UNIT 3 - LIST BASED WIDGETS"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:onClick="attachwidget" />
+        <Button
+            android:id="@+id/btnintent"
+            android:text="UNIT 4 - INTENTS"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:onClick="attachintent" />
+        <Button
+            android:id="@+id/btnfragment"
+            android:text="UNIT 5 - FRAGMENTS"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:onClick="attachfragment" />
+        <Button
+            android:id="@+id/btnmenu"
+            android:text="UNIT 6 - MENUS"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:onClick="attachmenu" />
+
+</LinearLayout>
